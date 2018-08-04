@@ -61,11 +61,13 @@ class Articles: NSObject {
         }
         
         if let pu = artical[kPUBLISHEDAT] as? String{
-            self.publishedAt = pu
+            let date = "\(pu.date(string: "yyyy-MM-dd'T'HH:mm:ssZ", to: "dd-MMM-yyyy hh:mm aa"))"
+            self.publishedAt = date
         }
         
         return self
     }
     
-
+//    "2018-08-03 T 23:03:45+00:00"    "yyyy-MM-dd'T'HH:mm:ssZ"
+//    "2018-02-01 T 19:10:04+00:00 "yyyy-MM-dd'T'HH:mm:ssZ"
 }

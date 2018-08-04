@@ -34,6 +34,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         self.getData()
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        self.title = "News"
+        self.navigationController?.isNavigationBarHidden = false
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -70,15 +75,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return CGSize(width: self.view.frame.width/2 - self.TOTAL_PADDING, height: 100 + descHeight + self.LABEL_PADDING)
     }
     
-    //MARK: - UICollectionView Delegate - DataSource
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        //        print(CGSizeMake(self.frame.size.width/2 - 10, 100))
-//
-//        let descHeight = self.articlList[indexPath.row].desc.heightForView(UIFont.systemFont(ofSize: 15), width: self.view.frame.width/2 - 10)
-//
-//        return CGSize(width: self.view.frame.width/2 - 7.5, height: 100 + descHeight + 8);
-//    }
-    
     //MARK:- Collectionview Methods
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -93,6 +89,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("selected title:- \(self.articlList[indexPath.row].title)")
+        
+        let details = storyboard?.instantiateViewController(withIdentifier: "ArticleDetailViewController") as! ArticleDetailViewController
+        details.article = self.articlList[indexPath.row]
+        self.navigationController?.pushViewController(details, animated: true)
         
     }
     
@@ -120,15 +121,3 @@ class ArticleCollectionViewCell : UICollectionViewCell {
     
 }
 
-extension String{
-    func heightForView(_ font : UIFont, width:CGFloat, numberOfLines: Int = 0) -> CGFloat{
-        let label:UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: width, height: CGFloat.greatestFiniteMagnitude))
-        label.numberOfLines = numberOfLines
-        label.lineBreakMode = NSLineBreakMode.byWordWrapping
-        label.font = font
-        label.text = self
-        
-        label.sizeToFit()
-        return label.frame.height
-    }
-}
