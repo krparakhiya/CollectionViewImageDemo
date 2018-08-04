@@ -40,6 +40,20 @@
 		DC9A8AC62115F000004CEDAA /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AAF2115EFFF004CEDAA /* UIButton+WebCache.m */; };
 		DC9A8AC82115F26E004CEDAA /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AC72115F26E004CEDAA /* ArticleDetailViewController.swift */; };
 		DC9A8ACA21160035004CEDAA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AC921160035004CEDAA /* Extension.swift */; };
+		DC9A8ADE21160C36004CEDAA /* LightboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8ACD21160C36004CEDAA /* LightboxController.swift */; };
+		DC9A8ADF21160C36004CEDAA /* LayoutConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8ACF21160C36004CEDAA /* LayoutConfigurable.swift */; };
+		DC9A8AE021160C36004CEDAA /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AD021160C36004CEDAA /* UIView+Gradient.swift */; };
+		DC9A8AE121160C36004CEDAA /* LightboxTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AD121160C36004CEDAA /* LightboxTransition.swift */; };
+		DC9A8AE221160C36004CEDAA /* LightboxConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AD221160C36004CEDAA /* LightboxConfig.swift */; };
+		DC9A8AE321160C36004CEDAA /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AD321160C36004CEDAA /* AssetManager.swift */; };
+		DC9A8AE421160C36004CEDAA /* LightboxImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AD421160C36004CEDAA /* LightboxImage.swift */; };
+		DC9A8AE521160C36004CEDAA /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AD621160C36004CEDAA /* FooterView.swift */; };
+		DC9A8AE621160C36004CEDAA /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AD721160C36004CEDAA /* InfoLabel.swift */; };
+		DC9A8AE721160C36004CEDAA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AD821160C36004CEDAA /* HeaderView.swift */; };
+		DC9A8AE821160C36004CEDAA /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8AD921160C36004CEDAA /* LoadingIndicator.swift */; };
+		DC9A8AE921160C36004CEDAA /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8ADA21160C36004CEDAA /* PageView.swift */; };
+		DC9A8AEA21160C36004CEDAA /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8ADC21160C36004CEDAA /* UIColor+Hue.swift */; };
+		DC9A8AEB21160C36004CEDAA /* UIImage+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A8ADD21160C36004CEDAA /* UIImage+Hue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +116,20 @@
 		DC9A8AB02115EFFF004CEDAA /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
 		DC9A8AC72115F26E004CEDAA /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 		DC9A8AC921160035004CEDAA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		DC9A8ACD21160C36004CEDAA /* LightboxController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxController.swift; sourceTree = "<group>"; };
+		DC9A8ACF21160C36004CEDAA /* LayoutConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConfigurable.swift; sourceTree = "<group>"; };
+		DC9A8AD021160C36004CEDAA /* UIView+Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
+		DC9A8AD121160C36004CEDAA /* LightboxTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxTransition.swift; sourceTree = "<group>"; };
+		DC9A8AD221160C36004CEDAA /* LightboxConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxConfig.swift; sourceTree = "<group>"; };
+		DC9A8AD321160C36004CEDAA /* AssetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetManager.swift; sourceTree = "<group>"; };
+		DC9A8AD421160C36004CEDAA /* LightboxImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxImage.swift; sourceTree = "<group>"; };
+		DC9A8AD621160C36004CEDAA /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		DC9A8AD721160C36004CEDAA /* InfoLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoLabel.swift; sourceTree = "<group>"; };
+		DC9A8AD821160C36004CEDAA /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DC9A8AD921160C36004CEDAA /* LoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		DC9A8ADA21160C36004CEDAA /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		DC9A8ADC21160C36004CEDAA /* UIColor+Hue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hue.swift"; sourceTree = "<group>"; };
+		DC9A8ADD21160C36004CEDAA /* UIImage+Hue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Hue.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +188,7 @@
 		DC02BB9A211456D200E33FAA /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				DC9A8ACB21160C36004CEDAA /* ImagePreview */,
 				DC9A8A822115EFFF004CEDAA /* SDWebImage */,
 				DC02BBE22114695400E33FAA /* CollectionViewFlowLayout.swift */,
 				DC02BBE421146A1E00E33FAA /* ContentDynamicLayout.swift */,
@@ -236,6 +265,59 @@
 			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
+		DC9A8ACB21160C36004CEDAA /* ImagePreview */ = {
+			isa = PBXGroup;
+			children = (
+				DC9A8ACC21160C36004CEDAA /* Lightbox */,
+				DC9A8ADB21160C36004CEDAA /* Hue */,
+			);
+			path = ImagePreview;
+			sourceTree = "<group>";
+		};
+		DC9A8ACC21160C36004CEDAA /* Lightbox */ = {
+			isa = PBXGroup;
+			children = (
+				DC9A8ACD21160C36004CEDAA /* LightboxController.swift */,
+				DC9A8ACE21160C36004CEDAA /* Library */,
+				DC9A8AD221160C36004CEDAA /* LightboxConfig.swift */,
+				DC9A8AD321160C36004CEDAA /* AssetManager.swift */,
+				DC9A8AD421160C36004CEDAA /* LightboxImage.swift */,
+				DC9A8AD521160C36004CEDAA /* Views */,
+			);
+			path = Lightbox;
+			sourceTree = "<group>";
+		};
+		DC9A8ACE21160C36004CEDAA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DC9A8ACF21160C36004CEDAA /* LayoutConfigurable.swift */,
+				DC9A8AD021160C36004CEDAA /* UIView+Gradient.swift */,
+				DC9A8AD121160C36004CEDAA /* LightboxTransition.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DC9A8AD521160C36004CEDAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC9A8AD621160C36004CEDAA /* FooterView.swift */,
+				DC9A8AD721160C36004CEDAA /* InfoLabel.swift */,
+				DC9A8AD821160C36004CEDAA /* HeaderView.swift */,
+				DC9A8AD921160C36004CEDAA /* LoadingIndicator.swift */,
+				DC9A8ADA21160C36004CEDAA /* PageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC9A8ADB21160C36004CEDAA /* Hue */ = {
+			isa = PBXGroup;
+			children = (
+				DC9A8ADC21160C36004CEDAA /* UIColor+Hue.swift */,
+				DC9A8ADD21160C36004CEDAA /* UIImage+Hue.swift */,
+			);
+			path = Hue;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,6 +391,7 @@
 			files = (
 				DC02BBE32114695400E33FAA /* CollectionViewFlowLayout.swift in Sources */,
 				DC9A8AB22115F000004CEDAA /* MKAnnotationView+WebCache.m in Sources */,
+				DC9A8ADF21160C36004CEDAA /* LayoutConfigurable.swift in Sources */,
 				DC9A8AB42115F000004CEDAA /* SDWebImageDecoder.m in Sources */,
 				DC9A8ABD2115F000004CEDAA /* SDWebImagePrefetcher.m in Sources */,
 				DC02BBE521146A1E00E33FAA /* ContentDynamicLayout.swift in Sources */,
@@ -317,18 +400,31 @@
 				DC9A8AB92115F000004CEDAA /* SDWebImageDownloader.m in Sources */,
 				DC9A8AB32115F000004CEDAA /* SDWebImageManager.m in Sources */,
 				DC9A8AB62115F000004CEDAA /* FLAnimatedImageView+WebCache.m in Sources */,
+				DC9A8AE421160C36004CEDAA /* LightboxImage.swift in Sources */,
 				DC02BB99211452A600E33FAA /* Articles.swift in Sources */,
+				DC9A8AE921160C36004CEDAA /* PageView.swift in Sources */,
 				DC9A8ABB2115F000004CEDAA /* UIImage+MultiFormat.m in Sources */,
 				DC9A8AC02115F000004CEDAA /* NSData+ImageContentType.m in Sources */,
+				DC9A8AE721160C36004CEDAA /* HeaderView.swift in Sources */,
 				DC9A8AB82115F000004CEDAA /* FLAnimatedImageView.m in Sources */,
 				DC9A8AB52115F000004CEDAA /* UIImageView+HighlightedWebCache.m in Sources */,
+				DC9A8AE321160C36004CEDAA /* AssetManager.swift in Sources */,
+				DC9A8ADE21160C36004CEDAA /* LightboxController.swift in Sources */,
 				DC9A8ACA21160035004CEDAA /* Extension.swift in Sources */,
 				DC9A8AC42115F000004CEDAA /* UIView+WebCacheOperation.m in Sources */,
+				DC9A8AE521160C36004CEDAA /* FooterView.swift in Sources */,
+				DC9A8AE121160C36004CEDAA /* LightboxTransition.swift in Sources */,
+				DC9A8AEA21160C36004CEDAA /* UIColor+Hue.swift in Sources */,
 				DC9A8ABA2115F000004CEDAA /* UIImage+GIF.m in Sources */,
 				DC9A8AC22115F000004CEDAA /* NSImage+WebCache.m in Sources */,
 				DC02BB9621144CF800E33FAA /* NetworkManager.swift in Sources */,
+				DC9A8AE021160C36004CEDAA /* UIView+Gradient.swift in Sources */,
+				DC9A8AEB21160C36004CEDAA /* UIImage+Hue.swift in Sources */,
+				DC9A8AE621160C36004CEDAA /* InfoLabel.swift in Sources */,
+				DC9A8AE821160C36004CEDAA /* LoadingIndicator.swift in Sources */,
 				DC9A8ABC2115F000004CEDAA /* SDWebImageCompat.m in Sources */,
 				DC9A8AB72115F000004CEDAA /* FLAnimatedImage.m in Sources */,
+				DC9A8AE221160C36004CEDAA /* LightboxConfig.swift in Sources */,
 				DC9A8AC62115F000004CEDAA /* UIButton+WebCache.m in Sources */,
 				DC9A8AB12115F000004CEDAA /* UIImage+WebP.m in Sources */,
 				DC9A8AC82115F26E004CEDAA /* ArticleDetailViewController.swift in Sources */,

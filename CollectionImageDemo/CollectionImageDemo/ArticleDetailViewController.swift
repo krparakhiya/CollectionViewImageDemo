@@ -127,6 +127,21 @@ class ArticleDetailViewController: UIViewController, UITableViewDataSource, UITa
                 }
             }
             break
+        case ImageTableViewCell.CELL_ID:
+            var lightBoxImages : [LightboxImage] = []
+            if let cacheImage = SDImageCache.shared().imageFromCache(forKey: cellInfo.imgString) {
+                lightBoxImages.append(LightboxImage(image: cacheImage))
+            }else{
+                if let imgURL = URL(string: cellInfo.imgString){
+                    lightBoxImages.append(LightboxImage(imageURL: imgURL))
+                }
+            }
+            if lightBoxImages.count > 0{
+                let controller = LightboxController(images: lightBoxImages)
+                controller.dynamicBackground = true
+                present(controller, animated: true, completion: nil)
+            }
+            break
         default:
             break
         }
